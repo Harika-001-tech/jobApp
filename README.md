@@ -1,8 +1,13 @@
-# React + Vite
+# JobApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+to run this App,
+npm run dev
 
-Currently, two official plugins are available:
+1. this App has 2 components Jobs and Bookmarks
+jobs page is home page which has all job cards , there will be option to bookmark the job and unbookmark it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If you toggle to bookmarks tab, it will have jobs that you have bookmarked previsouly
+2. when you click on the job title it will be routed to other page which has more details of that particular job
+
+3. I have added pagination on the job page 
+
